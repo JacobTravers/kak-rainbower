@@ -1085,7 +1085,7 @@ int main(int argc, const char **argv)
     {
         if(cursor_range_a.c != 0)
         {
-            const char *color = "rgb:003300";
+            const char *color = "rgb:181818";
             if(IsRangeVisible(cursor_range_a.pair, cursor_range_b.pair, window_top, window_bottom))
             {
                 printf("%d.%d,%d.%d|default,%s ",
